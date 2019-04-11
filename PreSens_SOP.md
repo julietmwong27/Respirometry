@@ -9,7 +9,7 @@ Protocol for set-up and take-down of the Oxy-10 and its probes, as well as how t
 - [**Creating and Assigning Measurement Files in PreSens**](#Files)
 - [**Probe Calibration**](#Probe_Cal)
 - [**Running the PreSens Program**](#Running_Program)
-- [**Exporting Your Data**] (#Export)
+- [**Exporting Your Data**](#Export)
 - [**Shutdown, Cleaning, and Storage of Oxy-10**](#Shutdown)
 
 
