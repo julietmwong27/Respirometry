@@ -33,7 +33,7 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
   b. Place the Apex temperature probe in the water and make sure the Apex display is showing an accurate current temperature reading.  
   c. Connect tubing to the inflow and outflow ports on your chiller.  At the other end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler.  
   d. Before plugging the chiller and heater into the Apex EnergyBar, make sure the outlets are manually OFF or set to AUTO for your desired program.  
-    i. **The heater must be fully submerged before powering on**  
+  **The heater must be fully submerged before powering on**  
   e. Fill a second bin with the water you'll use to fill the chambers (here called "source water") and use a second Apex to control the temperature of that water as well.  
   f. While you wait for the bath and source water to reach the desired temperature, set up the respirometer and prepare the chambers.  
 
@@ -41,8 +41,7 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 
 1. Connecting the battery  
   a. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  Attach the red clip to the positive terminal on the battery and the black clip to the negative terminal.  Test your connection and battery power by turning the switch on the other side of battery compartment **clockwise**.  The conveyor belt should start moving at a quick pace.  Turn the switch off.  
-    i. If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  
-    ii. As an additional check, you can unscrew a chamber, insert a stir bar in the center divet of the bottom, then reseal the chamber.  Place the chamber in one of the chamber slots and note the rotation speed of the stir bar.  If the stir bar is spinning slowly, the battery needs to be switched out and recharged.  
+  If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  As an additional check, you can unscrew a chamber, insert a stir bar in the center divet of the bottom, then reseal the chamber.  Place the chamber in one of the chamber slots and note the rotation speed of the stir bar.  If the stir bar is spinning slowly, the battery needs to be switched out and recharged.  
   b. Place the connected battery inside the compartment and screw the lid on tightly, making sure the o-ring is properly positioned.  Use a boa grip to tighten the lid with 1-2 quarter turns, then wrap with parafilm around the lid to seal the cap.    
   c. Once you are sure the battery compartment is water tight, submerge the respirometer in the water bath.  
   d. Situate the heater so it's fully submerged but not touching the respirometer stand or the Apex temp probe, and away from the battery compartment if possible.  Consider the best placement of the temp probe, heater, and chiller outflow for adequate water monitoring and circulation.  
@@ -57,7 +56,7 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
   a. Careful to not damage the probes or introduce bubbles to the chamber, insert the temperature probe into the larger probe port and gently guide it down until it fits snuggly and securely.  
   b. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber.  
   c. Check for bubbles inside the chambers.  If any bubbles are present, try to remove them.  
-    i. You may be able to guide small bubbles out of the airlock seal on the chamber lid.  For large bubbles or a large quantity of bubbles, remove the chamber, place back into the source water, unscrew the bottom to wipe or shake away any bubbles, then close and re-secure the chamber.  Note the new time of when you sealed the chamber.  
+  You may be able to guide small bubbles out of the airlock seal on the chamber lid.  For large bubbles or a large quantity of bubbles, remove the chamber, place back into the source water, unscrew the bottom to wipe or shake away any bubbles, then close and re-secure the chamber.  Note the new time of when you sealed the chamber.  
 
 1. Last checks before starting to record data using the PreSens program:  
   a. Stir bars spinning in place and at normal speed (If not, the battery needs to be switched out and recharged - see [**Take-Down**](#Take-Down) instructions for proper procedures)  
@@ -80,8 +79,8 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
   c. Unscrew the holding plates and remove the chambers.  
   d. If collecting water samples, note the time when you either unscrew the airlock seal on the lid (best method for pouring the water into another container) or unscrew the bottom (keep the chamber upside down for this method).  
   e. Unscrew the bottom of the chamber to fully drain the water, then place the two chamber parts in the source water.  
-    i. If you have any organisms secured in the bottom of the chamber, be as swift as possible to minimize time spent out of the water.  
-    ii. Keep the chamber lid very near or loosely on top of the chamber bottom, unscrewed, to not confuse which organism goes in which numbered chamber, while still allowing for water flow until you're ready to move the chambers to the water bath.
+  If you have any organisms secured in the bottom of the chamber, be as swift as possible to minimize time spent out of the water.  
+  f. Keep the chamber lid very near or loosely on top of the chamber bottom, unscrewed, to not confuse which organism goes in which numbered chamber, while still allowing for water flow until you're ready to move the chambers to the water bath.
 
 1. Once the source water and water bath are at the desired temperature, follow steps 4-6 in [**Setup**](#Setup) to prepare for your next run.  
     
