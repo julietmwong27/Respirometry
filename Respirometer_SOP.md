@@ -145,10 +145,11 @@ If using the respirometer at more than one temperature
   a. Fill two beakers with DI water and gently drape the probes over a line or surface so the probe tips (any portion exposed to the water) are submerged in DI, with O2 probes in one beaker and temp probes in another.  
 
 1. Breaking down the respirometer after soaking  
-  a. Remove the parafilm and use a boa grip to loosen the cap utnil you can unscrew it by hand.  
-  b. Take out the battery and detach the positive and negative clips from the battery terminals.  
-  c. Check for any leaked water by wiping a towel, cloth, or chemwipe around the inside of the compartment.  
-  d. Place the respirometer on a stable surface to dry overnight (with the battery compartment opening-side down).  
+  a. Lift the respirometer out of the freshwater bath using the same tilt method as before.
+  b. Remove the parafilm and use a boa grip to loosen the cap utnil you can unscrew it by hand.  
+  c. Take out the battery and detach the positive and negative clips from the battery terminals.  
+  d. Check for any leaked water by wiping a towel, cloth, or chemwipe around the inside of the compartment.  
+  e. Place the respirometer on a stable surface to dry overnight (with the battery compartment opening-side down).  
 
 1. Using a clean rag or chemwipe with ethanol, wipe down the cord of each Oxy-10 probe to remove any remaining salt deposits or particulates, then recoil the probes and store in their original labeled bags.  
   a. Refer to the [**PreSens SOP**](/PreSens_SOP.md) for proper handling and storage of the probes.  
