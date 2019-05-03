@@ -11,6 +11,7 @@ Protocol for set-up and take-down of the Oxy-10 and its probes, as well as how t
 - [**Running the PreSens Program**](#Running_Program)
 - [**Exporting Your Data**](#Export)
 - [**Shutdown, Cleaning, and Storage of Oxy-10**](#Shutdown)
+- [**Troubleshooting**](#Troubleshooting)
 
 
 <a name="Oxy10"></a> **Oxy-10 Setup**
@@ -35,14 +36,7 @@ Note: Before beginning your measurements, you must calculate the appropriate Oxy
 1.	In the Measurements tab, click "New" and type in a useful data file name for each measurement of each recording period.  If you are using all 10 sets of O2 and Temp, you will need to create and title 10 measurements per recording run.  Give unique, descriptive names to help manage and organize your data.
 1.	Once all your new measurements are created, you need to assign them to each channel on the Oxy-10.  Click on the measurement title you created for Channel 1, select Channel 1 on the sidebar, then click “Assign to” to link the channel with your new measurement data file.  Do this for all 10 channels with your 10 unique measurement files.
 1.	When you click each Channel on the sidebar, the "Measurement" description should now show your assigned data file name, and "Sensor" should show the appropriate corresponding O2 and Temp probes (Ex. Channel 1 should show "Sensor: OXY_CH1").   If any Channels do not have the correct probe number assigned, you must recalibrate the sensor using the provided detail sheet from the probe and by following the Probe Calibration steps, detailed below.
-
-
-<a name="Probe_Cal"></a> **Probe Calibration** (In progress)
-
-1.  In the Sensors tab, select "New".
-1.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
-1.	Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel. 
-1.  
+ 
 
 
 <a name="Running_Program"></a> **Running the PreSens Program**
@@ -66,3 +60,45 @@ Note: Before beginning your measurements, you must calculate the appropriate Oxy
 1.	Fill two beakers with DI water (one for O2 probes and one for Temp probes) and submerge probe tips (any part of the probe exposed to your sample solution) for at least 15 minutes to rinse off any residue from your measurements.  Using a chemmwipe, gently wipe off water from all probes and place the black caps back on the O2 probe tips.
 1.	After excessive use or after the last recording run of your experiment, follow up this DI rinse with a full probe and cord wipe-down using ethanol on a clean cloth or chemmwipe.
 1.	Recoil the probes and store in their labeled bags.
+
+
+<a name="Probe_Cal"></a> **Probe Calibration** (In progress)
+
+If one of your probes 
+
+1.  In the Sensors tab, select "New".
+1.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
+1.	Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel. 
+1. 
+
+
+<a name="Troubleshooting"></a> **Troubleshooting**
+
+**If PreSens Measurement Studio 2 crashes after plugging in the Oy10, or PreSens shows this error message after plugging in the Oxy10 first: "Error while loading the sensors.  The application will now terminate."**  
+- First, Shut down the program and reload it.
+- If that doesn't work, shut down the computer and reboot, then open the program.
+- If a connection still cannot be made, update the PreSens Measurement 2 software [here](https://www.presens.de/support-services/download-center/software.html)
+  - Uninstall the PreSens Software from your computer (once reinstalled, you will likely have to recalibrate the O2 probes)
+  - On the webpage, under O~2~, click the topmost link
+  - Login (or Register, if you prefer your own user login) with email: danielle.barnas@csun.edu pw: SilbigerLab
+  - The download should begin automatically, and once it's loaded, open the file and run through the guided download steps
+  - Open PreSens on your computer and plug in the Oxy10.  The sensors should now display on the left sidebar
+  - Follow steps for [Probe Calibration](#Probe_Cal)
+  
+
+**If probe readings seem incorrect**  
+- Basic test of the Temperature probes
+  - Make a dummy Measurement file and assign it to the probe you want to check
+  - Run the channel assigned to that probe
+  - Hold the probe tip and watch the measurement curve.  The curve should begin leveling off at your body temp (can note a change in the curve either up or down depending on your environment's temperature relative to your body to verify the probe is not malfunctioning)
+  - If the reading still seems off, disconnect and reconnect the probe, and try the above steps again
+  - To check accuracy of the readings, place the probe in a beaker of water and use a secondary thermometer to check the probe's readings against the thermometer's
+    - If the reading still seems off, check the probe tip and wire for any tears and deep scratches.  If any are present, the probe may be damaged and need replacing
+- Basic test the O~2~ probes
+  - Make a dummy Measurement file and assign it to the probe you want to check
+  - Run the channel assigned to that probe
+  - Breath out close to the probe tip and watch the measurement curve.  The curve should begin dropping, indicating a drop in Oxygen
+  - If the reading still seems off, disconnect and reconnect the probe, and try the above steps again
+  - If the reading still seems off, check the probe tip and wire for any tears, crimps, and deep scratches.  If any are present, the probe may be damaged and need replacing
+
+
