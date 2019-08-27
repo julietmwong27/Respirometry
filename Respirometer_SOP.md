@@ -13,6 +13,7 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - [**Water Changeover for Additional Runs**](#Water_Change)
 - [**Removing Chambers from Respirometer**](#Removing)
 - [**Take-Down and Clean Up**](#Take-Down)
+- [**Troubleshooting**](#Troubleshooting)
 
 
 <a name="Supplies"></a> **Supplies**
@@ -25,37 +26,39 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - Powersonic Battery charger with cable
 - Boa grip
 - Parafilm
-- Large cooler (+a second bin for source water)
-- Chiller (+1 for source water)
-- Heater(s) (+same amount for source water)
-- Apex controller (+1 for source water)
+- Large cooler
+- Second bin (for source water to fill chambers)
+- Chiller x2 (for cooler and second bin)
+- Heater(s)
+- Second set of heater(s) (for second bin)
+- Apex controller (for cooler)
+- InkBird controller (for second bin)
 
 
 <a name="Bath"></a> **Water Bath Setup**
 
-1. Place the cooler in close proximity to your chiller and within reach of the Apex probes and plug-ins.  Fill the cooler with water, enough to fully submerge the chambers once the respirometer is placed inside.  
+1. Place the second bin and cooler in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an InkBird controller (or second Apex) to control the temperature of that water.  
 
-1. Place the Apex temperature probe in the water and make sure the Apex display is showing an accurate current temperature reading.  
+1. Fill the cooler with source water, enough to just fully submerge the chambers once the respirometer and chambers are placed inside, and set up an Apex controller to control the temperature of that water.
 
-1. Connect tubing to the inflow and outflow ports on your chiller.  At the other end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler.  
+1. Connect tubing to the inflow and outflow ports on your chiller.  At the other end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler.  Plug the pump into a any free wall outlet (not a temperature controller outlet).
 
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the outlets are manually OFF or set to AUTO for your desired program.  
-  a. **The heater must be fully submerged before powering on**  
-
-1. Fill a second bin with the water you'll use to fill the chambers (here called "source water") and use a second Apex to control the temperature of that water as well.  
+1. Place the Apex or InkBird temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.  
+  
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the outlets are manually OFF or set to AUTO if you've already programmed the outlets.  Pre-set the InkBird temperature before plugging in the chiller and heater.
+    1. **The heater(s) must be fully submerged before powering on**  
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the respirometer and prepare the chambers.  
 
 <a name="Battery"></a> **Connecting the Battery**
 
-1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  Attach the red clip to the positive terminal on the battery and the black clip to the negative terminal.  Test your connection and battery power by turning the switch on the other side of battery compartment **clockwise**.  The conveyor belt should start moving at a quick pace.  Turn the switch off.  
-  a. If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  
-  b. As an additional check, you can unscrew a chamber, insert a stir bar in the center divet of the bottom, then reseal the chamber.  Place the chamber in one of the chamber slots and note the rotation speed of the stir bar.  If the stir bar is spinning slowly, the battery needs to be switched out and recharged.  
-
-1. Place the connected battery inside the compartment and screw the lid on tightly, making sure the o-ring is properly positioned.  Use a boa grip to tighten the lid with 1-2 quarter turns, then wrap with parafilm around the lid to seal the cap.    
-
-1. Once you are sure the battery compartment is water tight, submerge the respirometer in the water bath.  
-
+1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  Test your connection and battery power by turning the switch on the other side of battery compartment **clockwise**.  The conveyor belt should start moving at a quick pace.  Turn the switch off.  
+    1. If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  
+    1. As an additional check, you can unscrew a chamber base, insert a stir bar in the center divet of the base, then reseal the chamber.  Place the chamber in one of the chamber slots and note the rotation speed of the stir bar.  If the stir bar is spinning slowly or not at all, the battery needs to be switched out and recharged.  
+1. Place the connected battery inside the compartment **gently** and screw the lid on tightly, making sure the o-ring is properly positioned.  Use a boa grip to tighten the lid with 1-2 quarter turns, then wrap with parafilm around the lid to seal the cap.
+    1. The connection point of the black wire is very delicate.  Rough handing or too much tension on the wires from twisting may disconnect the wire from its base, requiring soldering to reattach the the metal foot of the wire to the metal point on the base.  If this disconnectin occurs, see [**Troubleshooting**](#Troubleshooting).  
+    1.  Once the battery is placed inside, and everything is sealed, do one last check of power to make sure the motor is running, then turn it off to conserve the battery until you're ready to start your runs.
+1. Once you are sure the battery compartment is water tight, submerge the respirometer in the cooler's water bath.  
 1. Situate the heater so it's fully submerged but not touching the respirometer stand or the Apex temp probe, and away from the battery compartment if possible.  Consider the best placement of the temp probe, heater, and chiller outflow for adequate water monitoring and circulation.  
 
 <a name="Chambers"></a> **Filling and Securing Chambers**
@@ -155,3 +158,6 @@ If using the respirometer at more than one temperature
   a. Refer to the [**PreSens SOP**](/PreSens_SOP.md) for proper handling and storage of the probes.  
 
 1. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
+
+<a name="Troubleshooting"></a> **Troubleshooting**
+* 
