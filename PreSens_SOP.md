@@ -68,8 +68,13 @@ If one of your probes
 
 1.  In the Sensors tab, select "New".
 1.  Type in the name for your sensor (Ex. OXY_CH1) and select the probe type listed on your probe description sheet (Ex. PSt7_10)
-1.	Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel. 
-1. 
+1.  Fill in the information as provided by the data sheet for the specific sensor you're calibrating.
+    1. Only use the information in the gray boxes for Phase Signal and Temperature.
+    1. Be sure to select the correct units for Temperature (Celcius) and Oxygen (umol/L or your preferrered units).
+    1. Note the User Signal Intensity: this value may be 0 or 1 depending on the specific sensor.
+    1. Batch ID breaks down into 4 number groups: first two digits are the Year, second two digits are the Month, third two digits are the Day, and the three digits after the dash are the Sequence.
+    1. Leave Lot Nr blank.
+1.	Select the appropriate OXY_CH# probe and Channel #, then click “Assign to” to link the coupled O2 and Temp probes to each Channel.
 
 
 <a name="Troubleshooting"></a> **Troubleshooting**
