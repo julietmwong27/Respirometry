@@ -37,15 +37,15 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 
 <a name="Bath"></a> **Water Bath Setup**
 
-1. Place the second bin and cooler in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an InkBird controller (or second Apex) to control the temperature of that water.  
+1. Place the cooler and second bin in close proximity to their respective chillers and within reach of the heaters and probes connected to the temperature controllers.  Fill the second bin with the water you'll use to fill the chambers (here called "source water") and set up an InkBird controller (or second Apex) to control the temperature of that water.  
 
 1. Fill the cooler with source water, enough to just fully submerge the chambers once the respirometer and chambers are placed inside, and set up an Apex controller to control the temperature of that water.
 
-1. Connect tubing to the inflow and outflow ports on your chiller.  At the other end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler.  Plug the pump into a any free wall outlet (not a temperature controller outlet).
+1. Connect tubing to the inflow and outflow ports on your chillers.  At the free end of the inflow tube, attach an aquarium pump.  Place the pump and the free end of the outflow tube in the cooler (repeat for the second bin).  Plug the pump into a any free wall outlet (not a temperature controller outlet).
 
 1. Place the Apex or InkBird temperature probe in the water and check that the display (or apex.local dashboard on your computer) is showing an accurate current temperature reading.  
   
-1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the outlets are manually OFF or set to AUTO if you've already programmed the outlets.  Pre-set the InkBird temperature before plugging in the chiller and heater.
+1. Before plugging the chiller and heater into the Apex EnergyBar, make sure the outlets are manually OFF.  Set these outlets to AUTO only once you've programmed the outlets for your desired temperature.  Pre-set the InkBird temperature before plugging in the chiller and heater.
     1. **The heater(s) must be fully submerged before powering on**  
 
 1. While you wait for the bath and source water to reach the desired temperature, set up the respirometer and prepare the chambers.  
@@ -55,10 +55,13 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 1. Unscrew the cap of the sealed battery compartment on the underside of the respirometer and locate the red and black cables.  Attach the red clip to the positive terminal (marked in red) on the battery and the black clip to the negative terminal (marked in black).  Test your connection and battery power by turning the switch on the other side of battery compartment **clockwise**.  The conveyor belt should start moving at a quick pace.  Turn the switch off.  
     1. If the belt does not move or moves slowly, the battery needs to be switched out and recharged.  
     1. As an additional check, you can unscrew a chamber base, insert a stir bar in the center divet of the base, then reseal the chamber.  Place the chamber in one of the chamber slots and note the rotation speed of the stir bar.  If the stir bar is spinning slowly or not at all, the battery needs to be switched out and recharged.  
+
 1. Place the connected battery inside the compartment **gently** and screw the lid on tightly, making sure the o-ring is properly positioned.  Use a boa grip to tighten the lid with 1-2 quarter turns, then wrap with parafilm around the lid to seal the cap.
     1. The connection point of the black wire is very delicate.  Rough handing or too much tension on the wires from twisting may disconnect the wire from its base, requiring soldering to reattach the the metal foot of the wire to the metal point on the base.  If this disconnectin occurs, see [**Troubleshooting**](#Troubleshooting).  
     1.  Once the battery is placed inside, and everything is sealed, do one last check of power to make sure the motor is running, then turn it off to conserve the battery until you're ready to start your runs.
+
 1. Once you are sure the battery compartment is water tight, submerge the respirometer in the cooler's water bath.  
+
 1. Situate the heater so it's fully submerged but not touching the respirometer stand or the Apex temp probe, and away from the battery compartment if possible.  Consider the best placement of the temp probe, heater, and chiller outflow for adequate water monitoring and circulation.  
 
 <a name="Chambers"></a> **Filling and Securing Chambers**
@@ -75,7 +78,9 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 <a name="Probes"></a> **Inserting Oxy-10 Probes**
 
 1. Careful to not damage the probes or introduce bubbles to the chamber, insert the temperature probe into the larger probe port and gently guide it down until it fits snuggly and securely.  
+
 1. Once the temperature probe is in place, gently guide the oxygen probe into its port, being careful to not scratch the probe tip.  The probe tip should be at least 2 cm into the chamber, but can be inserted farther, as long as the probe isn't touching any organisms or objects in the chamber.  
+
 1. Check for bubbles inside the chambers.  If any bubbles are present, try to remove them.  
   a. You may be able to guide small bubbles out of the airlock seal on the chamber lid.  
   b. For large bubbles or a large quantity of bubbles, remove the chamber, place back into the source water, unscrew the bottom to wipe or shake away any bubbles, then close and re-secure the chamber.  Note the new time of when you sealed the chamber.  
@@ -159,5 +164,9 @@ If using the respirometer at more than one temperature
 
 1. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
 
-<a name="Troubleshooting"></a> **Troubleshooting**
-* 
+<a name="Troubleshooting"></a> **Troubleshooting**  
+* Disconnection of battery wire
+    * Access the battery compartment by simply unscrewing (rotating counterclockwise) the PVC tubing which holds the battery and connections.  No screwdrivers are required.
+    * A temporary hold may be aquired using electrical tape until you can solder the affected wire.
+    * A soldering iron with a fine tip is needed to reconnect the end of the wire to a small ssquare attachment point inside the battery compartment.  Before soldering, test the appropriate connection point by holding the end of the wire to the metal connection point and turning the motor ON. Do NOT touch the metal while the motor is on.
+    * Once a connection point is found, use a heated soldering iron and solder to seal that connection.  Let rest for a few minutes, then test the motor by turning it ON again.
