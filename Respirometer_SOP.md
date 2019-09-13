@@ -13,7 +13,6 @@ Protocol for set-up and take-down of the respirometer in conjunction with the Ox
 - [**Water Changeover for Additional Runs**](#Water_Change)
 - [**Removing Chambers from Respirometer**](#Removing)
 - [**Take-Down and Clean Up**](#Take-Down)
-- [**Troubleshooting**](#Troubleshooting)
 
 
 <a name="Supplies"></a> **Supplies**
@@ -163,10 +162,3 @@ If using the respirometer at more than one temperature
   a. Refer to the [**PreSens SOP**](/PreSens_SOP.md) for proper handling and storage of the probes.  
 
 1. Leave items to soak overnight if possible, then remove from the fresh water and place on a clean surface to dry.  
-
-<a name="Troubleshooting"></a> **Troubleshooting**  
-* Disconnection of battery wire
-    * Access the battery compartment by simply unscrewing (rotating counterclockwise) the PVC tubing which holds the battery and connections.  No screwdrivers are required.
-    * A temporary hold may be aquired using electrical tape until you can solder the affected wire.
-    * A soldering iron with a fine tip is needed to reconnect the end of the wire to a small ssquare attachment point inside the battery compartment.  Before soldering, test the appropriate connection point by holding the end of the wire to the metal connection point and turning the motor ON. Do NOT touch the metal while the motor is on.
-    * Once a connection point is found, use a heated soldering iron and solder to seal that connection.  Let rest for a few minutes, then test the motor by turning it ON again.
